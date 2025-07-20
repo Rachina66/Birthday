@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday!!</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <audio id="birthdayMusic" autoplay loop>
+      <source id="audioSource" src="New folder\Happy Birthday (King's Singers) [TRANSCRIPTION].mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+      <h1>Birthday Party ???/? </h1>
+      <img class="cat-img" src="assets\cat.jpg" alt="Cat" />
+      <div class="buttons">
+        <button class="yes" onclick="acceptBirthday()">Yes</button>
+        <button class="no" onmouseover="moveButton()">No</button>
+      </div>
+      
+    <div id="gallery">
+      <div class="gallery-item">
+          <img src="assets/birthdayy1.jpg" alt="image" class="gallery-img">
+          <div class="overlay">Happy Birthday to the most amazing best friend ever!</div>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/sanaa1.jpg" alt="image 1" class="gallery-img">
+        <div class="overlay">You make life brighter, crazier, and so much fun!</div>
+    </div>
+      <div class="gallery-item">
+          <img src="assets/sanaa2.jpg" alt="image 2" class="gallery-img">
+          <div class="overlay">To more memories, more laughter, and endless friendship.</div>
+      </div>
+      <div class="gallery-item">
+          <img src="assets/sanaa3.jpg" alt="image 3" class="gallery-img">
+          <div class="overlay">Wishing you a day full of love, surprises, cake, and confetti. Bestie, you deserve it all!</div>
+      </div>
+  </div>
+  <button onclick="prevPhoto()">Previous</button>
+  <button onclick="nextPhoto()">Next</button>
+  
+
+    <script src="script.js"></script>
+  </body>
+</html>
